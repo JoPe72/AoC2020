@@ -1,12 +1,12 @@
-cls
-$PassportBatchFile = Get-Content "C:\Users\JohanPersson\OneDrive\Github\AoC2020\Input-Day4.txt"
+Clear-Host
+$PassportBatchFile = Get-Content "$PSScriptRoot\Input-Day4.txt"
 
 $AllRows = $PassportBatchFile -split "\s+"
 $BatchIndex = 0
 $Recordnumber = 0
 
 $Batch = @()
-$item = New-Object PSObject
+$item = New-Object PSObjects
 $item | Add-Member -type NoteProperty -Name 'iyr' -Value 'X'
 $item | Add-Member -type NoteProperty -Name 'ecl' -Value 'X'
 $item | Add-Member -type NoteProperty -Name 'hcl' -Value 'X'

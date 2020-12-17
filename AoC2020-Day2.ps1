@@ -1,4 +1,4 @@
-$PasswordFile = Get-Content C:\Users\JohanPersson\OneDrive\Github\AoC2020\Input-Day2.txt
+$PasswordFile = Get-Content $PSScriptRoot\Input-Day2.txt
 $CorrectPasswordsPol1 = 0
 $CorrectPasswordsPol2 = 0
 foreach($PasswordLine in $PasswordFile)

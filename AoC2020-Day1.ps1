@@ -1,4 +1,4 @@
-$Numbers = Get-Content C:\Users\JohanPersson\OneDrive\Github\AoC2020\Input-Day1.txt
+$Numbers = Get-Content $PSScriptRoot\Input-Day1.txt
 
 for ($i = 0; $i -lt $Numbers.Count; $i++) 
 {   

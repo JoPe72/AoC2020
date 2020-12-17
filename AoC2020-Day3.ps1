@@ -1,5 +1,5 @@
 cls
-$SloapFile = Get-Content C:\Users\JohanPersson\OneDrive\Github\AoC2020\Input-Day3.txt
+$SloapFile = $PSScriptRoot\Input-Day3.txt
 $x31 = 0
 $x11 = 0
 $x51 = 0
