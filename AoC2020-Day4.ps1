@@ -68,6 +68,13 @@ while ($AllRowsIndex -lt $AllRows.Count) {
     $AllRowsIndex++
 }
 
+####
+####
+#### FLYTTA VALIDERING NERÅT 
+####
+####
+
+
 ## Cleaning Array
 
 $Batch = $Batch[1..($Batch.Count-1)]
